@@ -6,6 +6,7 @@ function MyMessage({ message }) {
       <img
         src={message.attachment[0].file}
         alt="message-attachment"
+        className="message-image"
         style={{ float: "right" }}
       />
     );
